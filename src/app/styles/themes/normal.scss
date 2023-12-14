@@ -3,4 +3,7 @@
 .app.light {
   background-color: $bg-color-light;
   color: $primary-color-light;
+  --inverted-bg-color: #343542;
+  --primary-color: #222224;
+  --inverted-primary-color: #fcfdff;
 }

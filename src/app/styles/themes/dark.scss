@@ -3,4 +3,7 @@
 .app.dark {
   background-color: $bg-color-dark;
   color: $primary-color-dark;
+  --inverted-bg-color: #fcfdff;
+  --primary-color: #fcfdff;
+  --inverted-primary-color: #222224;
 }
