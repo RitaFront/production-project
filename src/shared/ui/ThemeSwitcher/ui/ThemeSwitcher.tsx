@@ -21,11 +21,4 @@ export const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
       {theme === Theme.DARK ? <LigthIcon /> : <DarkIcon />}
     </Button>
   );
-  //   <button
-  //     className={classNames(styles.themeSwitcher, {}, [className])}
-  //     onClick={toggleTheme}
-  //   >
-
-  //   </button>
-  // );
 };
