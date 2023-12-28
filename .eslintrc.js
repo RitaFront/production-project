@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: [
     "standard-with-typescript",
@@ -58,6 +59,7 @@ module.exports = {
     "@typescript-eslint/naming-convention": "off",
     "arrow-body-style": "off",
     "i18next/no-literal-string": ["error", { markupOnly: true }],
+    "max-len": ["error", { ignoreComments: true }],
 
     "@typescript-eslint/no-confusing-void-expression": "off",
     "no-return-await": "off",
