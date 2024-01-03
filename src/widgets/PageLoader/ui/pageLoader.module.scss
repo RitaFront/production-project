@@ -1,0 +1,9 @@
+@import "../../../app/styles/variables/global";
+
+.pageLoader {
+  min-height: calc(100vh - $navbar-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

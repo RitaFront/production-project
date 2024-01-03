@@ -1,10 +1,11 @@
-import React, { Suspense } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { routeCongif } from 'shared/config/routeConfig/routeConfig';
+import React, { Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+import { routeCongif } from "shared/config/routeConfig/routeConfig";
+import { PageLoader } from "widgets/PageLoader";
 
 export const AppRouter = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<PageLoader />}>
       <Routes>
         {Object.values(routeCongif).map(({ element, path }) => (
           <Route
