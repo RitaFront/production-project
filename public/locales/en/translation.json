@@ -3,5 +3,8 @@
   "Translate": "Translate",
   "Lang": "English",
   "Not Found": "Not Found",
-  "toggle": "toggle"
+  "toggle": "toggle",
+  "Произошла непредвиденная ошибка": "An unexpected error occurred",
+  "Обновить страницу": "Refresh the page",
+  "throw error": "throw error"
 }
